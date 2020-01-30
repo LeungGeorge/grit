@@ -11,6 +11,11 @@ var Hexo = cli.Command{
 	Category: "hexo",
 	Subcommands: []cli.Command{
 		{
+			Name:   "clean",
+			Usage:  "clean hexo local files",
+			Action: preview,
+		},
+		{
 			Name:   "preview",
 			Usage:  "preview hexo blog",
 			Action: preview,
