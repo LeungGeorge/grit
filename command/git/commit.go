@@ -1,6 +1,7 @@
 package git
 
 import (
+	"fmt"
 	"log"
 	"os/exec"
 
@@ -21,6 +22,6 @@ func commit() error {
 		return err
 	}
 
-	log.Println("Execute git commit finished.")
+	log.Println(fmt.Sprintf("Execute git commit finished, msg[%s].", msg))
 	return nil
 }
