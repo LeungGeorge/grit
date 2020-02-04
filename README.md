@@ -1,4 +1,4 @@
-# grit
+# grit [move to https://github.com/LeungGeorge/grimoire-tool](https://github.com/LeungGeorge/grimoire-tool)
 
 为简洁而生，基于 [urfave/cli](https://github.com/urfave/cli) 实现。
 
