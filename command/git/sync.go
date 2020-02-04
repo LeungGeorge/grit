@@ -11,7 +11,7 @@ func sync(ctx *cli.Context) error {
 	switch status() {
 	case statusEmpty:
 		log.Println("Execute git status finished, nothing to commit, working tree clean")
-		// pull()
+		pull()
 
 	case statusAHead:
 		log.Println("Execute git status finished, ahead")
